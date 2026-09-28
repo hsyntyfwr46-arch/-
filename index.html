@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -7,19 +6,43 @@
     <title>موقعي الشخصي</title>
     <style>
         body {
-            font-family: Tahoma, sans-serif;
-            background-color: #f4f4f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
             text-align: center;
-            padding: 50px;
+            max-width: 450px;
+            width: 90%;
         }
         h1 {
             color: #0066cc;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
         }
     </style>
 </head>
 <body>
-    <h1>مرحباً بك في موقعي الإلكتروني!</h1>
-    <p>تم إنشاء هذه الصفحة بنجاح عبر GitHub.</p>
+
+    <div class="card">
+        <h1>مرحباً بك في موقعي الإلكتروني</h1>
+        <p>تم إنشاء هذه الصفحة بنجاح عبر GitHub.</p>
+    </div>
+
 </body>
 </html>
