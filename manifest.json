@@ -1,0 +1,9 @@
+{
+  "name": "موقعي الشخصي",
+  "short_name": "Sit",
+  "start_url": "/sit/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": []
+}
